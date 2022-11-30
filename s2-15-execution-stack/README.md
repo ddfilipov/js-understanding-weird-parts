@@ -61,4 +61,4 @@ This would still generate the same execution stack as before:
 1 - Execution Context of a()
 0 - Global Execution Context
 
-**TLDR**: Whichever Execution Context is on top is the one that's currently running.
+**TLDR**: Each function that's called creates an Execution Context which stack on the pile one on top of the other. Whichever Execution Context is on top is the one that's currently running.
