@@ -25,20 +25,20 @@ Let's see what will happen when we finally get to the execution step.
 
 First of all there's an Execution stack, which would look something like this:
 
-0 - Global Execution Context
+0-Global Execution Context
 
 Then the program would get invoke function a() and that would create another Execution Context (with a create and execute phase too). Our stack would look like this:
 
-1 - Execution Context of a()
-0 - Global Execution Context
+1-Execution Context of a()
+0-Global Execution Context
 
 Notice how the Execution Context of a() is on top of the GCE because we're inside a now.
 
 Once a() calls b(), a new Execution context will be created on top of the stack:
 
-2 - Execution Context of b()
-1 - Execution Context of a()
-0 - Global Execution Context
+2-Execution Context of b()
+1-Execution Context of a()
+0-Global Execution Context
 
 The order lexically of this code doesn't really matter. Example:
 
