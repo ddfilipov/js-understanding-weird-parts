@@ -1,11 +1,11 @@
-function b() {
-    console.log("Called b!");
+function a() {
+    b(); // 2 - we invoke b()
+    var c; // 4 - var c is created
 }
 
-b();
+function b() {
+    var d; // 3 - var d is created
+}
 
-console.log(a);
-
-var a = "Hello World!";
-
-console.log(a);
+a(); // 1 - we invoke a()
+var d; // 5 var d is created at the end because js is synchronous
