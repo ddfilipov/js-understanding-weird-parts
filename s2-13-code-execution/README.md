@@ -17,7 +17,7 @@ console.log(a);
 ```
 
 The `b` variable case can be confusing because isn't `undefined` and `not defined` the same? No.
-`undefined` is a special value in js, it's not just a word. And the `b` code would output an error because there's no space in memory for b.
+`undefined` is a special value in js, it's not just a word. And the `b` code would output an error because there's no space in memory for `b`.
 
 WARNING: Never to this
 

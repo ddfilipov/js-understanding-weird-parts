@@ -45,7 +45,7 @@ var myVar = 1;
 a();
 ```
 
-In this case the value of myVar inside of b() would be 2. Because its immidiate outer environment is function a. And we gave myVar a value of 2 in this function.
+In this case the value of myVar inside of `b()` would be `2`. Because its immidiate outer environment is function a. And we gave myVar a value of `2` in this function.
 
 Last example:
 
@@ -63,6 +63,6 @@ a();
 console.log(myVar); // myVar = 1
 ```
 
-Notice how there's only one assignation to myVar, and it's in the GEC. So when b() is invoked it will look for myVar inside of itself, it wont find it. Then it will look for myVar in a(), and it will not find it either. Then it will look for it on the outer block which is the GEC, and it will see that it's 1.
+Notice how there's only one assignation to myVar, and it's in the GEC. So when `b()` is invoked it will look for myVar inside of itself, it wont find it. Then it will look for myVar in `a()`, and it will not find it either. Then it will look for it on the outer block which is the GEC, and it will see that it's `1`.
 
 **TLDR**: if a var does not exist inside of an Execution Context it will use its referens to its outer environment to look for the value of that var. If it can't find it in that one it will look in the even yet outer environment. If there's none, the var will return an error.

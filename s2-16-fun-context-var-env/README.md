@@ -18,9 +18,9 @@ a();
 
 Lets see the execution stack of this code (notice how the context on the bottom is the first one that is created and the one on the top is the last one)
 
-2 - Execution Context of b() -> `myVar` would be `undefined`
+2 - Execution Context of `b()` -> `myVar` would be `undefined`
 
-1 - Execution Context of a() -> `myVar` would be `2`
+1 - Execution Context of `a()` -> `myVar` would be `2`
 
 0 - Global Execution Context -> the Variable Enviornment of the GCE is a global object (or a window in a browser). `myVar` would be `1`
 

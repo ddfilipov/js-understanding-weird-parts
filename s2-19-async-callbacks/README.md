@@ -35,7 +35,7 @@ waitThreeSeconds();
 console.log("finished execution");
 ```
 
-The waitThreeSeconds() function simulates a function with an action that takes a long time (3 seconds). What should happen here is that when we execute this code. We would get. 3 seconds would pass and then:
+The `waitThreeSeconds()` function simulates a function with an action that takes a long time (3 seconds). What should happen here is that when we execute this code. We would get. 3 seconds would pass and then:
 1. finished function
 2. finished execution
 
@@ -43,4 +43,4 @@ What if we clicked before those 3 seconds end? Our clickswould be put in the eve
 
 **CAUTION**: In order to trigger those click events before the 3s end we should put the `<script>` tag between the `<head>` tag in **Google Chrome**. The code works as intended in **Mozilla** though.
 
-**TLDR**: This is what we need to know. That js is synchronous and even though the waitThreeSeconds() and the clickHandler() functions were being executed asynchronously *outisde* of the Javascript Engine, js is still executing functions one by one.
+**TLDR**: This is what we need to know. That js is synchronous and even though the `waitThreeSeconds()` and the `clickHandler()` functions were being executed asynchronously *outisde* of the Javascript Engine, js is still executing functions one by one.

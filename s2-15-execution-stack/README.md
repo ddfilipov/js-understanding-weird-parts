@@ -27,18 +27,18 @@ First of all there's an Execution stack, which would look something like this:
 
 0-Global Execution Context
 
-Then the program would get invoke function a() and that would create another Execution Context (with a create and execute phase too). Our stack would look like this:
+Then the program would get invoke function `a()` and that would create another Execution Context (with a create and execute phase too). Our stack would look like this:
 
-1-Execution Context of a()
+1-Execution Context of `a()`
 0-Global Execution Context
 
-Notice how the Execution Context of a() is on top of the GCE because we're inside a now.
+Notice how the Execution Context of `a()` is on top of the GCE because we're inside a now.
 
-Once a() calls b(), a new Execution context will be created on top of the stack:
+Once `a()` calls `b()`, a new Execution context will be created on top of the stack:
 
-2-Execution Context of b()
+2-Execution Context of `b()`
 
-1-Execution Context of a()
+1-Execution Context of `a()`
 
 0-Global Execution Context
 
@@ -60,8 +60,8 @@ var d; // 5 var d is created at the end because js is synchronous
 
 This would still generate the same execution stack as before:
 
-2 - Execution Context of b()
-1 - Execution Context of a()
+2 - Execution Context of `b()`
+1 - Execution Context of `a()`
 0 - Global Execution Context
 
 **TLDR**: Each function that's called creates an Execution Context which stack on the pile one on top of the other. Whichever Execution Context is on top is the one that's currently running.
