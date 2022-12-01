@@ -37,7 +37,9 @@ Notice how the Execution Context of a() is on top of the GCE because we're insid
 Once a() calls b(), a new Execution context will be created on top of the stack:
 
 2-Execution Context of b()
+
 1-Execution Context of a()
+
 0-Global Execution Context
 
 The order lexically of this code doesn't really matter. Example:
