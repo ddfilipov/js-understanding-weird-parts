@@ -32,4 +32,6 @@ And what if we had `"" == 0` -> returns `true`. But `"" == false` also returns `
 
 When comparing Equality we should 99% of the time for Strict Equality (`===`) so we don't have to deal with js coercion when comparing values.
 
+There's a [whole article in MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness) about Equality comparisons and sameness that's very useful.
+
 **TLDR**: Coercion exists in js and it can be useful but also dangerous. When _comparing_ try to use Strict Equality (`===`) almost always so you don't have to deal with coercion.
