@@ -24,20 +24,20 @@ Notes taken from Anthony Alicea's Udemy "Javascript: Understanging the weird par
 
 ## Section 3: Types and Operators
 
--   20 - [Conceptual Aside: Types and Javascript](s3-20-types-js)
+-   20 - [Conceptual Aside: Types and Javascript](section-3/s3-20-types-js)
 
--   21 - [Primitive Types](s3-21-primitive-types)
+-   21 - [Primitive Types](section-3/s3-21-primitive-types)
 
--   22 - [Conceptual Aside: Operators](s3-22-operators)
+-   22 - [Conceptual Aside: Operators](section-3/s3-22-operators)
 
--   23 - [Operator Precedence and Associativity](s3-23-procedence-associativity)
+-   23 - [Operator Precedence and Associativity](section-3/s3-23-procedence-associativity)
 
--   24 - [Conceptual Aside: Coercion](s3-24-coercion)
+-   24 - [Conceptual Aside: Coercion](section-3/s3-24-coercion)
 
--   26 - [Comparison Operators](s3-26-comparison-operators)
+-   26 - [Comparison Operators](section-3/s3-26-comparison-operators)
 
--   28 - [Existence and Booleans](s3-28-existence-booleans)
+-   28 - [Existence and Booleans](section-3/s3-28-existence-booleans)
 
--   29 - [Default Values](s3-29-default-values)
+-   29 - [Default Values](section-3/s3-29-default-values)
 
--   30 - [Framework Aside: Default Values](s3-30-framework-aside-def-vals)
+-   30 - [Framework Aside: Default Values](section-3/s3-30-framework-aside-def-vals)
