@@ -4,23 +4,23 @@ Notes taken from Anthony Alicea's Udemy "Javascript: Understanging the weird par
 
 ## Section 2: Execution Contexts and Lexical Environments
 
--   11 - [The Execution Context - Creation and Hoisting](s2-11-creation-and-hoisting)
+-   11 - [The Execution Context - Creation and Hoisting](section-2/s2-11-creation-and-hoisting)
 
--   12 - [Conceptual Aside: Javascript and 'undefined'](s2-12-js-and-undefined/README.md)
+-   12 - [Conceptual Aside: Javascript and 'undefined'](section-2/s2-12-js-and-undefined/README.md)
 
--   13 - [The Execution Context: Code Execution](s2-13-code-execution)
+-   13 - [The Execution Context: Code Execution](section-2/s2-13-code-execution)
 
--   14 - [Conceptual Aside: Single Threaded, Synchronous Execution](s2-14-single-threaded-sync-exec)
+-   14 - [Conceptual Aside: Single Threaded, Synchronous Execution](section-2/s2-14-single-threaded-sync-exec)
 
--   15 - [Function Invocation and the Execution Stack](s2-15-execution-stack)
+-   15 - [Function Invocation and the Execution Stack](section-2/s2-15-execution-stack)
 
--   16 - [Functions, Context, and Variable Environments](s2-16-fun-context-var-env)
+-   16 - [Functions, Context, and Variable Environments](section-2/s2-16-fun-context-var-env)
 
--   17 - [The Scope Chain](s2-17-scope-chain)
+-   17 - [The Scope Chain](section-2/s2-17-scope-chain)
 
--   18 - [Scope, ES6, and let](s2-18-scope-es6-let)
+-   18 - [Scope, ES6, and let](section-2/s2-18-scope-es6-let)
 
--   19 - [What About Asynchronous Callbacks?](s2-19-async-callbacks)
+-   19 - [What About Asynchronous Callbacks?](section-2/s2-19-async-callbacks)
 
 ## Section 3: Types and Operators
 
