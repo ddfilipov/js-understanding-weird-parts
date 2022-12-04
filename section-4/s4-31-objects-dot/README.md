@@ -19,4 +19,4 @@ person["firstname"] = "Tony"; // this has created a spot in memory and the objec
 ```
 
 
-**TLDR**: We can use default values to avoid problems when making our own libraries or frameworks.
+**TLDR**:
