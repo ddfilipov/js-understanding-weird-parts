@@ -41,3 +41,7 @@ Notes taken from Anthony Alicea's Udemy "Javascript: Understanging the weird par
 -   29 - [Default Values](section-3/s3-29-default-values)
 
 -   30 - [Framework Aside: Default Values](section-3/s3-30-framework-aside-def-vals)
+
+## Section 4: Objects and Functions
+
+-   31 - [Objects and the Dot](section-4/s4-31-objects-dot)
