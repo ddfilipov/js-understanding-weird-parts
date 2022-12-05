@@ -45,3 +45,5 @@ Notes taken from Anthony Alicea's Udemy "Javascript: Understanging the weird par
 ## Section 4: Objects and Functions
 
 -   31 - [Objects and the Dot](section-4/s4-31-objects-dot)
+
+-   32 - [Objects and Object Literals][section-4/s4-32-object-literals]
