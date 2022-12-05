@@ -46,7 +46,7 @@ Notes taken from Anthony Alicea's Udemy "Javascript: Understanging the weird par
 
 -   31 - [Objects and the Dot](section-4/s4-31-objects-dot)
 
--   32 - [Objects and Object Literals][section-4/s4-32-object-literals]
+-   32 - [Objects and Object Literals](section-4/s4-32-object-literals)
 
 -   33 - [Framework Aside: Faking Namespaces](section-4/s4-33-faking-namespaces)
 
