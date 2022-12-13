@@ -1,19 +1,7 @@
-var greet = "Hello!";
-var greet = "Hola!";
-
-console.log(greet);
-
-var english = {
-    greetings: {
-        basic: "hello!",
-    },
+var objectLiteral = {
+    firstName: "Denis",
+    isAProgrammer: true,
 };
-var spanish = {};
 
-english.greet = "Hello!";
-spanish.greet = "Hola!";
+console.log(JSON.stringify(objectLiteral));
 
-english.greetings.greet = "Hello!";
-
-console.log(english.greetings.basic);
-console.log(english.greetings.greet);
