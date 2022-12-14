@@ -1,7 +1,8 @@
-var objectLiteral = {
-    firstName: "Denis",
-    isAProgrammer: true,
-};
+function greet() {
+    console.log("hi");
+}
 
-console.log(JSON.stringify(objectLiteral));
+greet.language = "english";
 
+console.log(greet.language);
+console.log(greet().code);
