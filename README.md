@@ -51,3 +51,5 @@ Notes taken from Anthony Alicea's Udemy "Javascript: Understanging the weird par
 -   33 - [Framework Aside: Faking Namespaces](section-4/s4-33-faking-namespaces)
 
 -   34 - [JSON and Object Literals](section-4/s4-34-json-obj-literals)
+
+-   34 - [Functions are Objects](section-4/s4-35-function-objects4-json-obj-literals)
