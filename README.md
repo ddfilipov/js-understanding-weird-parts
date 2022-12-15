@@ -52,4 +52,6 @@ Notes taken from Anthony Alicea's Udemy "Javascript: Understanging the weird par
 
 -   34 - [JSON and Object Literals](section-4/s4-34-json-obj-literals)
 
--   34 - [Functions are Objects](section-4/s4-35-function-objects4-json-obj-literals)
+-   35 - [Functions are Objects](section-4/s4-35-function-objects4-json-obj-literals)
+
+-   36 - [Function Statements and Function Expressions](section-4/s4-36-function-statements-expressions)
