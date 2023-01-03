@@ -16,7 +16,7 @@ console.log(a * b + c); // like in math, we multiply first, then we add: a * b =
 console.log(a + b * c); // same as above, only this time the first function to be executed would be b * c = 12, then 12 + 2 = 14
 ```
 
-Full table of the operator precedence and associativity on the MDN web docs [MDN web docs](https://www.markdownguide.org/cheat-sheet/) (scroll down for the table!)
+Full table of the operator precedence and associativity on the MDN web docs [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence) (scroll down for the table!)
 
 ## Operator Associativity
 
